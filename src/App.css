@@ -1,0 +1,47 @@
+.main-app {
+  display: grid;
+}
+
+.list-items {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  gap: 15px;
+}
+.id-key {
+  width: 300px;
+  height: 200px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  background: rgb(187, 225, 240);
+  gap: 5px;
+  border-radius: 15px;
+}
+
+.id-key > * {
+  align-self: center;
+  justify-self: center;
+}
+
+.forms {
+  align-self: center;
+  justify-self: center;
+  display: flex;
+}
+
+form {
+  display: grid;
+  background: black;
+  padding: 15px;
+  height: 200px;
+}
+form > * {
+  color: #fff;
+  background: rgb(71, 71, 71);
+  outline: none;
+  border: 1px solid white;
+  padding: 7.5px;
+  align-self: center;
+  justify-self: center;
+}
